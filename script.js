@@ -16,6 +16,7 @@ for (let i = 0; i < cancel.length; i++) {
     clearThis.style.display = "none"
   }
 }
+
 function addContent(){
   var newList = document.createElement("li");
   var ins = document.getElementById("inPut").value;

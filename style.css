@@ -5,10 +5,13 @@ html, body {
   padding: 0px;
   margin: 0px;
 }
+.flex{
+  padding: 10px;
+  background-color: #333333;
+}
 
 .container {
   height:150px;
-  width: 100%;
   background: blanchedalmond;
   padding: 10px;
 }
@@ -49,31 +52,20 @@ input:active {
 }
 ul {
   margin: 0;
-  padding: 0;
+  padding:0px;
   background-color: #333333;
-  width: 100%;
+
 }
 ul li {
   position: relative;
   cursor: pointer;
   height: 70%;
-  width; 100%;
   margin: 0px;
   color: white;
   transition: 0.5s;
   list-style-type: none;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 20px;
-}
-
-ul li:nth-child(odd) {
-  background-color: #999999
-}
-
-ul li: checked {
-  background: blanchedalmond;
-  color: black;
 }
 
 ul li:hover {
@@ -85,6 +77,7 @@ ul li:checked {
   background: black;
   text-decoration: line-through;
   color: white;
+
 }
 
 .cancel {
